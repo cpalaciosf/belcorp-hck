@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Belcorp | Skin Care Experience </title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"> <span>Belcorp</span></a>
+
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile clearfix">
+              <div class="profile_pic">
+                <img src="images/picture.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>Welcome,</span>
+                <h2>Teresa</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+
+                  <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+
+                      <li><a href="recommender.html">Virtual recommender</a></li>
+
+                    </ul>
+                  </li>
+
+                  <li><a><i class="fa fa-bar-chart-o"></i> Tracking <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="tracking_treatments.html">Treatments</a></li>
+
+                    </ul>
+                  </li>
+
+                </ul>
+              </div>
+
+            </div>
+            <!-- /sidebar menu -->
+
+          </div>
+        </div>
+
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                <h3>Belcorp Skin Care Experience</h3>
+              </div>
+
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="row">
+
+              <div class="col-md-12 col-sm-12 ">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2> Virtual treatment</h2>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+
+                    <!-- Smart Wizard -->
+
+                    <p>This is the Belcorp Skin experience that recommend you a customize treatment according your skin needs with this information you will provide us a better understanding of  your skin and the kind of weather your skin will be exposed to…
+                    </p>
+                    <div id="wizard" class="form_wizard wizard_horizontal">
+                      <ul class="wizard_steps">
+                        <li>
+                          <a href="#step-1">
+                            <span class="step_no">1</span>
+                            <span class="step_descr">
+                                              About you<br />
+                                              <small></small>
+                                          </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-2">
+                            <span class="step_no">2</span>
+                            <span class="step_descr">
+                                              Your skin<br />
+                                              <small></small>
+                                          </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-3">
+                            <span class="step_no">3</span>
+                            <span class="step_descr">
+                                              Skin report<br />
+                                              <small></small>
+                                          </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-4">
+                            <span class="step_no">4</span>
+                            <span class="step_descr">
+                                              Your treatment<br />
+                                              <small></small>
+                                          </span>
+                          </a>
+                        </li>
+                      </ul>
+                      <div id="step-1">
+                        <p>Let us know a Little more about yourself… </p>
+                        <form class="form-horizontal form-label-left">
+                          <div class="form-group row">
+                              <label class="col-form-label col-md-3 col-sm-3  label-align">When were you born?<span class="required">*</span></label>
+                              <div class="col-md-6 col-sm-6">
+                                  <input class="form-control" class='date' type="date" name="date" required='required'></div>
+                          </div>
+
+                          <div class="form-group row">
+                            <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name" value ="Piura">Where do you live? <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 ">
+                              <input type="text" id="first-name" required="required" class="form-control  ">
+                            </div>
+                          </div>
+                          <div class="form-group row">
+      											<label class="control-label col-md-3 col-sm-3 label-align">How frequently do you hydrate your skin?</label>
+      											<div class="col-md-6 col-sm-6 ">
+      												<select class="form-control">
+      													<option>Always</option>
+      													<option>Often</option>
+      													<option>Usually</option>
+      													<option>Sometimes</option>
+      													<option>Never</option>
+      												</select>
+      											</div>
+      										</div>
+
+                          <div class="form-group row">
+                            <label class="col-form-label col-md-3 col-sm-3 label-align" for="last-name">Do you enjoy product with scents?  <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 ">
+                              <input type="text" id="last-name" name="last-name" required="required" class="form-control ">
+                            </div>
+                          </div>
+                            <div class="form-group row">
+
+</div>
+                        </form>
+
+                      </div>
+                      <div id="step-2">
+
+
+                          <div class="form-group row">
+                              <label class="col-form-label col-md-3 col-sm-3 "></label>
+                              <div class="col-md-6 col-sm-6">
+
+                                <div class="camera">
+                                    <video id="video">Video stream not available.</video>
+                                </div>
+                                <div>
+
+                                  <button id="startbutton" type="button" class="btn btn-round btn-primary">Take photo</button>
+
+                                </div>
+                                <canvas id="canvas"></canvas>
+                              </div>
+                          </div>
+
+
+
+                        </div>
+
+
+                      <div id="step-3">
+
+
+                        <div class="form-group row">
+                          <div class="col-md-2 col-sm-12 ">
+                          </div>
+
+
+                          <div class="col-md-10 col-sm-12 ">
+                            <h3>Teresa</h3>
+                            <p>Let’s see how your skin is doing…</p>
+                            <p> We’ve detected: </p>
+                            <ul class="list-unstyled user_data">
+                              <li>
+                                <p>Skin dryness</p>
+                                <div class="progress progress_sm">
+                                  <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="50"></div>
+                                </div>
+                              </li>
+                              <li>
+                                <p>Sunspots</p>
+                                <div class="progress progress_sm">
+                                  <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="20"></div>
+                                </div>
+                              </li>
+                            </ul>
+                            <h2>But don’t worry, we got Your back</h2>
+
+                          </div>
+                        </div>
+
+                      </div>
+                      <div id="step-4">
+
+                        <div class="row">
+                          <div class="col-md-2 col-sm-2 ">
+                          </div>
+                            <h3 class="StepTitle">Perfect products for You!</h3>
+
+                          <div class="col-md-12 col-sm-12 ">
+                              <div class="col-md-55">
+                              </div>
+                              <div class="col-md-55">
+                                <div class="thumbnail">
+                                  <div class="image view view-first">
+                                    <img style="width: 100%; display: block;" src="images/hialuronico.png" alt="image" />
+                                    <div class="mask">
+                                      <p>Your Text</p>
+                                      <div class="tools tools-bottom">
+                                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="caption">
+                                    <p>Mascarilla de papel triple acción</p>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                              <div class="col-md-55">
+                                <div class="thumbnail">
+                                  <div class="image view view-first">
+                                    <img style="width: 100%; display: block;" src="images/dermo.jpeg" alt="image" />
+                                    <div class="mask">
+                                      <p>Your Text</p>
+                                      <div class="tools tools-bottom">
+                                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="caption">
+                                    <p>Dermo Clarité</p>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+                    <!-- End SmartWizard Content -->
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+   <script src="../vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- jQuery Smart Wizard -->
+    <script src="../vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <script>
+        (function() {
+
+    var width = 320; // We will scale the photo width to this
+    var height = 0; // This will be computed based on the input stream
+
+    var streaming = false;
+
+    var video = null;
+    var canvas = null;
+    var photo = null;
+    var startbutton = null;
+
+    function startup() {
+        video = document.getElementById('video');
+        canvas = document.getElementById('canvas');
+        photo = document.getElementById('photo');
+        startbutton = document.getElementById('startbutton');
+
+        navigator.mediaDevices.getUserMedia({
+                video: true,
+                audio: false
+            })
+            .then(function(stream) {
+                video.srcObject = stream;
+                video.play();
+            })
+            .catch(function(err) {
+                console.log("An error occurred: " + err);
+            });
+
+        video.addEventListener('canplay', function(ev) {
+            if (!streaming) {
+                height = video.videoHeight / (video.videoWidth / width);
+
+                if (isNaN(height)) {
+                    height = width / (4 / 3);
+                }
+
+                video.setAttribute('width', width);
+                video.setAttribute('height', height);
+                canvas.setAttribute('width', width);
+                canvas.setAttribute('height', height);
+                streaming = true;
+            }
+        }, false);
+
+        startbutton.addEventListener('click', function(ev) {
+            takepicture();
+            ev.preventDefault();
+        }, false);
+
+        clearphoto();
+    }
+
+
+    function clearphoto() {
+        var context = canvas.getContext('2d');
+        context.fillStyle = "#AAA";
+        context.fillRect(0, 0, canvas.width, canvas.height);
+
+        var data = canvas.toDataURL('image/png');
+        console.log("data", data)
+        //photo.setAttribute('src', data);
+    }
+
+    function takepicture() {
+        var context = canvas.getContext('2d');
+        if (width && height) {
+            canvas.width = width;
+            canvas.height = height;
+            context.drawImage(video, 0, 0, width, height);
+
+            var data = canvas.toDataURL('image/png');
+            console.log("data", data)
+            //photo.setAttribute('src', data);
+        } else {
+            clearphoto();
+        }
+    }
+
+    window.addEventListener('load', startup, false);
+    })();</script>
+
+
+  </body>
+</html>
